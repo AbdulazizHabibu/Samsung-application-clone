@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* NAV BAR */
+
+nav {
+    display: flex;
+    height: 125px;
+}
+.logo img {
+    width: 55px;
+    padding: 12px 50px 10px 30px ;
+    
+}
+.nav_top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+.nav_top_one ul {
+    display: flex;
+    font-weight: 540;
+   
+}
+.nav_top_one ul li {
+    margin: 30px 20px 10px 20px;
+}
+.nav_top_two ul li {
+   
+    margin: 30px 20px 10px 20px;
+}
+.nav_top_two ul {
+    display: flex;
+    font-weight: 540;
+}
+.nav_top_one {
+    padding-right: 350px;
+}
+.nav_top_two {
+    padding-right: 20px;
+}
+.search img{
+    margin: 30px 20px 10px 20px;
+    width: 15px;
+    padding-right: 2px;
+}
+.contact img{
+    margin: 30px 20px 10px 20px;
+    width: 15px;
+}
+
+/* CONTENT */
+
+
+.image_one{
+    width: 100%;
+    height: auto;   
+}
+.image_one img{
+    width: 100%;
+    height: 500px;
+}
+.mobile h1{
+    text-align: center;
+    padding-top: 80px;
+}
+.name_of_phones{
+    display: flex;
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+   
+}
+.name_of_phones h3{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.s21{
+    display: flex;
+}
+.s21 img{
+    width: 800px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.galaxy_s21{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 80px;
+}
+.galaxy_s21 h1{
+    text-align: center;
+}
+.galaxy_s21 p {
+    text-align: center;
+    padding-top: 15px;
+}
+.galaxy_s21 button{
+    margin-top: 10px;
+}
+.h1_tv_av{
+    text-align: center;
+    padding-top: 50px;   
+}
+.tv_av{
+    background-image: url(images/TV_HOME.jpg);
+    color: white;
+    padding-bottom: 80px;
+}
+.name_of_tvs{
+    display: flex;
+    width: 55%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.name_of_tvss h3{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.footer_tvs{
+    text-align: center;
+    padding-top: 530px;
+}
+.h1_home_appliance{   
+    text-align: center;
+    padding-top: 50px; 
+}
+.home_appliances{
+    background-image: url(images/home_appliances.png);
+    color: white;
+    margin-top: 100px;
+}
+.name_of_home_appliances{
+    display: flex;
+    width: 45%;
+    margin: auto;
+    justify-content: space-between;
+   
+}
+.name_of_home_appliances h3{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.footer_home_appliances{
+    text-align: center;
+    padding-top: 500px;
+    padding-bottom: 70px;
+}
+.footer_home_appliances p{
+    margin-top: 15px;
+}
+.footer_home_appliances button{
+    margin-top: 10px;
+}
+
+.h1_picks{   
+    text-align: center;
+    padding-top: 50px; 
+}
+.picks{
+    margin-top: 100px;
+}
+.picks_menu{
+    display: flex;
+    width: 35%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.name_of_home_appliances h3{
+    text-align: center;   
+}
+
+
+
+
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin: 20px;
+}
+
+.left-image {
+    flex: 1;
+    width: 50%;
+    background-color: #eceff7 ;
+    border-radius: 10px;
+}
+
+.left-image .image-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.left-image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.right-images img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.right-images {
+    flex: 1; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.image-item {
+    flex-basis: calc(50% - 10px); 
+    position: relative;
+    background-color: #eceff7 ;
+    border-radius: 10px;
+  
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 10px; 
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center; 
+    color: black; 
+   
+}
+
+.small-head{
+    text-align: center;
+    margin: 100px 0;
+    font-size: 30px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.text-list-container {
+    border-top: 2px solid black; 
+    margin-bottom: 20px;
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.numbered-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+
+.numbered-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.text-container {
+    margin-right: 10px;
+}
+
+.learn-more {
+    display: block;
+    margin-top: 5px;
+    color: black;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.number {
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+    color: grey;
+}
+
+.image-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image-container img {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 100px;
+}
+
+
+
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid rgb(207, 207, 207);
+    background-color: white;
+}
+
+.footer-header {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(207, 207, 207); 
+}
+
+.footer-section {
+    flex: 1; 
+    border-top: 1px solid rgb(207, 207, 207); 
+    position: relative;
+    border-right: 1px solid rgb(207, 207, 207);
+    padding: 10px;
+}
+
+.footer-section h3{
+    padding-top: 15px;
+}
+
+.footer-section p{
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.footer-section:before {
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+
+.footer-bottom-text{
+    text-align: left;
+    padding: 30px;
+}
+.footer-bottom-text p{
+    font-size: 12px;
+}
